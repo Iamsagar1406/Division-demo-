@@ -1,0 +1,772 @@
+<DOCTYPE html>
+<head>
+<title> div demo5</title>
+<style>
+.a1{ 
+    background-color:yellow;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+
+.a11{ 
+    background-color:yellow;
+    height:100px;
+	width:50%;
+	float:left;
+	}
+.a111{ 
+    background-color:orange;
+    height:60px;
+	width:50%;
+	float:left;
+	margin:40px 0px 0px 92px;
+	}
+.a12{ 
+    background-color:purple;
+    height:100px;
+	width:50%;
+	float:left;
+	}
+.a121{ 
+    background-color:orange;
+    height:60px;
+	width:50%;
+	float:left;
+	margin:40px 0px 0px 0px;
+	
+	}
+.a13{ 
+    background-color:blue;
+    height:100px;
+	width:50%;
+	float:left;
+	}
+.a131{ 
+    background-color:orange;
+    height:60px;
+	width:50%;
+	float:left;
+	margin:0px 0px 0px 92px;
+	}
+.a14{ 
+    background-color:pink;
+    height:100px;
+	width:50%;
+	float:left;
+	}
+.a141{ 
+    background-color:orange;
+    height:60px;
+	width:50%;
+	float:left;	
+	}
+.a2{ 
+    background-color:black;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a3{ 
+    background-color:orange;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a31{ 
+    background-color:yellow;
+    height:160px;
+	width:90%;
+	float:left;
+	margin:20px 10px 10px 15px;
+	}
+.a32{ 
+    background-color:orange;
+    height:140px;
+	width:90%;
+	float:left;
+	margin:10px 10px 10px 15px;
+	}
+.a33{ 
+    background-color:white;
+    height:120px;
+	width:90%;
+	float:left;
+	margin:13px 30px 30px 15px;
+	font-size:40px;
+	text-align:center;
+	}
+.a4{ 
+    background-color:black;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a41{ 
+    background-color:white;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a411{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a412{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a413{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a414{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a42{ 
+    background-color:black;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a421{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a422{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a423{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a424{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a43{ 
+    background-color:white;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a431{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a432{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a433{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a434{ 
+    background-color:black;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a44{ 
+    background-color:black;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.a441{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a442{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a443{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.a444{ 
+    background-color:white;
+    height:38px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 10px;
+	border-radius:10px;
+	}
+.b1{ 
+    background-color:red;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.b11{ 
+    background-color:white;
+    height:50px;
+	width:100%;
+	float:left;
+	}
+.b12{ 
+    background-color:black;
+    height:50px;
+	width:100%;
+	float:left;
+	}
+.b13{ 
+    background-color:pink;
+    height:50px;
+	width:100%;
+	float:left;
+	}
+.b14{ 
+    background-color:orange;
+    height:50px;
+	width:100%;
+	float:left;
+	}
+.b2{ 
+    background-color:blue;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.b21{ 
+    background-color:yellow;
+    height:65px;
+	width:45%;
+	float:left;
+	margin:15px 5px 5px 10px;
+	border-radius:5px;
+	}
+.b22{ 
+    background-color:yellow;
+    height:65px;
+	width:45%;
+	float:left;
+	margin:15px 5px 5px 10px;
+	border-radius:5px;
+	}
+.b23{ 
+    background-color:yellow;
+    height:65px;
+	width:45%;
+	float:left;
+	margin:15px 5px 5px 10px;
+	border-radius:5px;
+	}
+.b24{ 
+    background-color:yellow;
+    height:65px;
+	width:45%;
+	float:left;
+	margin:15px 5px 5px 10px;
+	border-radius:5px;
+	}
+.b3{ 
+    background-color:red;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.b31{ 
+    background-color:blue;
+    height:180px;
+	width:27%;
+	float:left;
+	margin:10px 5px 3px 12px;
+	border-radius:5px;
+	}
+.b32{ 
+    background-color:blue;
+    height:180px;
+	width:27%;
+	float:left;
+	margin:10px 5px 3px 12px;
+	border-radius:5px;
+	}
+.b33{ 
+    background-color:blue;
+    height:180px;
+	width:27%;
+	float:left;
+	margin:10px 5px 3px 12px;
+	border-radius:5px;
+	}
+.b4{ 
+    background-color:yellow;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.b41{ 
+    background-color:orange;
+    height:45px;
+	width:90%;
+	float:left;
+	margin:10px 5px 10px 15px;
+	}
+.b42{ 
+    background-color:orange;
+    height:45px;
+	width:90%;
+	float:left;
+	margin:10px 5px 10px 15px;
+	}
+.b43{ 
+    background-color:orange;
+    height:45px;
+	width:90%;
+	float:left;
+	margin:10px 5px 10px 15px;
+	}
+.c1{ 
+    background-color:red;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.c11{ 
+    background-color:black;
+    height:130px;
+	width:80%;
+	float:left;
+	margin:35px 0px 0px 35px;
+	border-radius:5px;
+	}
+.c12{ 
+    background-color:white;
+    height:100px;
+	width:80%;
+	float:left;
+	margin:15px 0px 0px 30px;
+	border-radius:5px;
+	}
+.c13{ 
+    background-color:black;
+    height:80px;
+	width:80%;
+	float:left;
+	margin:10px 0px 0px 25px;
+	border-radius:5px;
+	}
+.c2{ 
+    background-color:orange;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.c21{ 
+    background-color:yellow;
+    height:180px;
+	width:90%;
+	float:left;
+	margin:10px 0px 0px 20px;
+	}
+
+.c3{ 
+    background-color:green;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.c31{ 
+    background-color:blue;
+    height:40px;
+	width:100%;
+	float:left;
+	}
+.c311{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c312{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c313{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c314{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c32{ 
+    background-color:black;
+    height:40px;
+	width:100%;
+	float:left;
+	}
+.c321{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c322{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c323{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c324{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c33{ 
+    background-color:blue;
+    height:40px;
+	width:100%;
+	float:left;
+	}
+.c331{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c332{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c333{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c334{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c34{ 
+    background-color:black;
+    height:40px;
+	width:100%;
+	float:left;
+	}
+.c341{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c342{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c343{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c344{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c35{ 
+    background-color:blue;
+    height:40px;
+	width:100%;
+	float:left;
+	}
+.c351{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c352{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c353{ 
+    background-color:blue;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+.c354{ 
+    background-color:black;
+    height:40px;
+	width:25%;
+	float:left;
+	}
+
+.c4{ 
+    background-color:orange;
+    height:200px;
+	width:25%;
+	float:left;
+	}
+.c41{ 
+    background-color:white;
+    height:30px;
+	width:25%;
+	float:left;
+	margin-left:125px;
+	border-radius:5px;
+	}
+.c42{ 
+    background-color:black;
+    height:30px;
+	width:50%;
+	float:left;
+	margin-left:80px;
+	border-radius:5px;
+	}
+.c43{ 
+    background-color:white;
+    height:40px;
+	width:60%;
+	float:left;
+	margin-left:60px;
+	border-radius:5px;
+	}
+.c44{ 
+    background-color:black;
+    height:40px;
+	width:65%;
+	float:left;
+	margin-left:50px;
+	border-radius:5px;
+	}
+.c45{ 
+    background-color:white;
+    height:55px;
+	width:80%;
+	float:left;
+	margin-left:25px;
+	border-radius:5px;
+	}
+.c451{ 
+    background-color:black;
+    height:30px;
+	width:50%;
+	float:left;
+	margin-left:70px;
+	margin-top:12px;
+	border-radius:5px;
+	}
+
+
+
+</style>
+</head>
+<body>
+<!---------------------------------div demo5----------------------------->
+<!---------------------------------row 1st----------------------------->
+<div class="a1">
+<div class="a11">
+<div class="a111"></div>
+</div>
+<div class="a12">
+<div class="a121"></div>
+</div>
+<div class="a13">
+<div class="a131"></div>
+</div>
+<div class="a14">
+<div class="a141"></div>
+</div>
+</div>
+<div class="a2"></div>
+<div class="a3">
+<div class="a31">
+<div class="a32">
+<div class="a33"> div</div>
+</div>
+</div>
+</div>
+<div class="a4">
+<div class="a41">
+<div class="a411"></div>
+<div class="a412"></div>
+<div class="a413"></div>
+<div class="a414"></div>
+</div>
+<div class="a42">
+<div class="a421"></div>
+<div class="a422"></div>
+<div class="a423"></div>
+<div class="a424"></div>
+</div>
+<div class="a43">
+<div class="a431"></div>
+<div class="a432"></div>
+<div class="a433"></div>
+<div class="a434"></div>
+</div>
+<div class="a44">
+<div class="a441"></div>
+<div class="a442"></div>
+<div class="a443"></div>
+<div class="a444"></div>
+</div>
+</div>
+<!------------------------------2nd row---------------------------->
+<div class="b1">
+<div class="b11"></div>
+<div class="b12"></div>
+<div class="b13"></div>
+<div class="b14"></div>
+</div>
+<div class="b2">
+<div class="b21"></div>
+<div class="b22"></div>
+<div class="b23"></div>
+<div class="b24"></div>
+</div>
+<div class="b3">
+<div class="b31"></div>
+<div class="b32"></div>
+<div class="b33"></div>
+</div>
+<div class="b4">
+<div class="b41"></div>
+<div class="b42"></div>
+<div class="b43"></div>
+</div>
+<!------------------------------3nd row--------------------------->
+<div class="c1">
+<div class="c11">
+<div class="c12">
+<div class="c13"> div</div>
+</div>
+</div>
+</div>
+<div class="c2">
+<div class="c21"></div>
+</div>
+<div class="c3">
+<div class="c31">
+<div class="c311"></div>
+<div class="c312"></div>
+<div class="c313"></div>
+<div class="c314"></div>
+</div>
+<div class="c32">
+<div class="c321"></div>
+<div class="c322"></div>
+<div class="c323"></div>
+<div class="c324"></div>
+</div>
+<div class="c33">
+<div class="c331"></div>
+<div class="c332"></div>
+<div class="c333"></div>
+<div class="c334"></div>
+</div>
+<div class="c34">
+<div class="c341"></div>
+<div class="c342"></div>
+<div class="c343"></div>
+<div class="c344"></div>
+</div>
+<div class="c35">
+<div class="c351"></div>
+<div class="c352"></div>
+<div class="c353"></div>
+<div class="c354"></div>
+</div>
+</div>
+<div class="c4">
+<div class="c41"></div>
+<div class="c42"></div>
+<div class="c43"></div>
+<div class="c44"></div>
+<div class="c45">
+<div class="c451"></div>
+</div>
+
+</div>
+
+</body>
+</html>
